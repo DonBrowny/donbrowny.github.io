@@ -8,6 +8,12 @@
 	});
 	///////////////////////////
 	// Scrollspy
+	
+	
+})(jQuery);
+
+function onload(){
+	$('.slider').slider();
 	$('body').scrollspy({
 		target: '#nav',
 		offset: $(window).height() / 2
@@ -88,9 +94,4 @@
 			}
 		}
 	});
-	
-})(jQuery);
-
-function onload(){
-	$('.slider').slider();
 }
